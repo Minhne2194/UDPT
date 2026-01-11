@@ -4,7 +4,7 @@ services:
   pg_master:
     image: bitnami/postgresql:latest
     container_name: pg_master
-    user: root  # <--- THÊM DÒNG NÀY ĐỂ SỬA LỖI PERMISSION
+    user: root
     ports:
       - "5432:5432"
     environment:
@@ -20,7 +20,7 @@ services:
   pg_slave:
     image: bitnami/postgresql:latest
     container_name: pg_slave
-    user: root  # <--- THÊM DÒNG NÀY VÀO ĐÂY NỮA
+    user: root
     ports:
       - "5433:5432"
     depends_on:
