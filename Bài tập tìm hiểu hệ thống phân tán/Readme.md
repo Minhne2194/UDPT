@@ -1,8 +1,7 @@
 # Bài tập: Tìm hiểu Hệ thống cơ sở dữ liệu phân tán (PostgreSQL & MongoDB)
 
 ## 1. Thành phần bài tập
-- **Báo cáo:** `01_Bao_cao_chi_tiet.pdf`
-- **Thuyết trình:** `02_Slide_thuyet_trinh.pdf`
+- **Báo cáo:** `BÁO CÁO TÌM HIỂU HỆ THỐNG PHÂN TÁN.pdf`
 - **Mã nguồn:** Thư mục `MongoDB_Cluster` và `Postgres_Cluster`.
 
 ## 2. Yêu cầu hệ thống
