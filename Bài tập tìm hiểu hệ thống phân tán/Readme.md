@@ -13,10 +13,9 @@
 ### MongoDB Replica Set (3 nodes)
 1. Di chuyển vào thư mục: 
    cd MongoDB_Cluster
-
+   
 Khởi chạy:
-code
-Powershell
+```powershell
 docker-compose -f docker-compose-mongo.yml up -d
 Kích hoạt Cluster (Chạy lệnh này 1 lần duy nhất lúc đầu):
 code
