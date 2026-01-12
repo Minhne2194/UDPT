@@ -15,8 +15,6 @@
    cd MongoDB_Cluster
 
 Khởi chạy:
-```powershell
 docker-compose -f docker-compose-mongo.yml up -d
 Kích hoạt Cluster (Chạy lệnh này 1 lần duy nhất lúc đầu):
-```powershell
 docker exec -it mongo1 mongosh --eval "rs.initiate({_id:'rs0', members:[{_id:0,host:'mongo1:27017'},{_id:1,host:'mongo2:27017'},{_id:2,host:'mongo3:27017'}]})"
