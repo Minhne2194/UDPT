@@ -12,7 +12,6 @@
 
 ### MongoDB Replica Set (3 nodes)
 1. Di chuyển vào thư mục: 
-   ```powershell
    cd MongoDB_Cluster
 
 Khởi chạy:
